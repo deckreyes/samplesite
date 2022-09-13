@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/samplesite" mode="merge"/>
+    <filter root="/content/samplesite" mode="merge"/>
+    <filter root="/content/dam/samplesite" mode="merge">
+        <exclude pattern=".*\.jpg"/>
+    </filter>
+     <filter root="/content/dam/microsoft">
+        <exclude pattern=".*\.png"/>
+    </filter>
+    <filter root="/content/experience-fragments/samplesite" mode="merge"/>
+</workspaceFilter>
